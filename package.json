@@ -23,7 +23,9 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-transition-group": "^4.4.2",
+    "react-tsparticles": "^2.12.2",
     "styled-components": "^5.3.5",
+    "tsparticles-slim": "^2.12.0",
     "typescript": "^4.7.3",
     "web-vitals": "^2.1.4",
     "yarn": "^1.22.19"

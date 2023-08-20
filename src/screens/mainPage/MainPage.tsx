@@ -2,6 +2,8 @@
 import React from "react";
 //constants
 import { MainText, MainTitle } from "../../constants/MockData";
+//components
+import Cover from "../../components/cover/cover";
 //assets
 import MainRunner from "../../assets/svg/MainRunner";
 import MobxSvg from "../../assets/svg/mobxSvg";
@@ -39,6 +41,7 @@ function MainPageComponent() {
         <TypescriptSvg width={150} height={100} color={"gray"} />
         <EthereumSvg width={200} height={100} color={"gray"} />
       </div>
+      <Cover />
     </MainPage>
   );
 }
