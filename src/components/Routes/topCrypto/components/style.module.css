@@ -1,0 +1,219 @@
+.top10Btn{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: 'Rubik', serif;
+    letter-spacing: 2px;
+    border:  transparent;
+    border-radius: 4px;
+    font-weight: 500;
+    color: white;
+    background-color: transparent;
+    padding: 8px 28px;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+.activeLink{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: 'Rubik', serif;
+    letter-spacing: 2px;
+    border:  1px solid #F2994A;
+    border-radius: 4px;
+    font-weight: 500;
+    color: #F2994A;
+    background-color: transparent;
+    padding: 8px 28px;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+.emptyDiv{
+    background: linear-gradient(to left, #3b1d60, #040d3e);
+    height: 77.2vh;
+}
+
+.btnNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 2.5em;
+}
+
+.activeLink:hover{
+    color: white;
+    background-color: #F2994A;
+}
+
+.icon{
+    align-self: center;
+    margin-right: 20px;
+    z-index: 3;
+}
+
+
+.cryptoDesc{
+    font-family: "Gilroy-SemiBold", serif;
+    margin-top: 5vh;
+    font-size: 1.4em;
+    margin-bottom: 1.5em;
+    width: 35em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #919191;
+}
+
+.pricePercent{
+    position: relative;
+    left: 1.5em;
+}
+
+.priceDesc{
+    position: relative;
+    left: 5em;
+}
+
+.cryptoImg{
+    width: 2em;
+    height: 2em;
+}
+
+.infoContainer{
+    font-family: "Gilroy-SemiBold", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cryptoCard{
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 60em;
+    margin-bottom: 3em;
+    transition: transform 0.5s;
+    cursor: pointer;
+    box-shadow: 0px 5px 20px 0px rgba(99, 49, 164, 0.3);
+}
+
+
+.cryptoCard:hover{
+    transform: scale(1.02);
+}
+
+.cryptoNum{
+    font-size: 1.8em;
+    color: #919191;
+    margin-right: 10px;
+}
+
+
+.accordion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainContainer{
+    box-shadow: 0px 5px 20px 0px rgba(99, 49, 164, 0.3);
+}
+
+
+.textContainer{
+    width: 25em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordionInfo{
+    width: 15vh;
+    text-align: left;
+}
+
+
+
+.contentContainer{
+    width: 60em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contentName{
+    position: relative;
+    bottom: 2.7em;
+    text-transform: capitalize;
+  text-align: center;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.contentText{
+    position: relative;
+    bottom: 2.7em;
+    text-align: justify;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.accordionSpan, .accordionSpan2,p{
+    text-align: left;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.accordionSpan2{
+    padding-bottom: 1em;
+}
+
+.nameContainer{
+    display: flex;
+    align-items: center;
+    width: 22em;
+}
+
+.cryptoName{
+    text-transform: capitalize;
+    font-size: 1.8em;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.priceContainer{
+    width: 10em;
+    display: flex;
+}
+
+.changeContainer{
+    text-align: center;
+    width: 15em;
+}
+
+.cryptoPrice, .cryptoChange{
+    font-size: 1.8em;
+    text-align: justify;
+}
+.todoContainer{
+    min-height: 100vh;
+}
+.favorite{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+.favoriteText{
+   font-size: 1.2em;
+
+}
+.star{
+    margin-left: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.transparentBtn {
+    font-size: 1em;
+    font-family: 'Rubik', sans-serif;
+    margin-right: 1.5em;
+    letter-spacing: 2px;
+    border: 1px solid #F2994A;
+    border-radius: 4px;
+    font-weight: 500;
+    color: #F2994A;
+    padding: 8px 28px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.orangeBtn{
+    font-size: 1em;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 2px;
+    border-style: none;
+    border-radius: 4px;
+    font-weight: 500;
+    color: white;
+    padding: 8px 28px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #F2994A;
+}

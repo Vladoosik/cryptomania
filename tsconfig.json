@@ -1,0 +1,31 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "jsx": "preserve",
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "target": "ESNext",
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "noEmitOnError": false,
+    "removeComments": false,
+    "paths": {
+      "style/*": [ "src/style/*" ],
+    },
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ],
+  "include": ["src","./declarations.d.ts"],
+  "typeRoots": ["./node_modules/@types"],
+  "type": ["core-js"]
+}

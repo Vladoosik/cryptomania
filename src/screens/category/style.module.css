@@ -1,0 +1,43 @@
+.Categories{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 52em;
+}
+
+.cryptoName,.priceDesc, .pricePercent{
+    margin-top: 1.5em;
+    font-size: 1.5em;
+    color: #a4a4a4;
+    margin-bottom: 1em;
+}
+
+.contentContainer{
+    min-height: 100vh;
+}
+
+.priceDesc{
+    position: relative;
+    left: 2.5em;
+}
+
+.MainCategory{
+    display: flex;
+    align-items: center;
+    width: 50em;
+    justify-content: space-between;
+    margin-left: 5em;
+    margin-bottom: 2em;
+}
+
+.nameCategory{
+    font-size: 2em;
+    margin-left: 10px;
+}
+
+.logo{
+    margin-left: 10px;
+    width: 1.8em;
+    height: 1.8em;
+}
+

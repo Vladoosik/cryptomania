@@ -1,0 +1,171 @@
+.searchContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.searchTitle{
+    display: block;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+    font-family: "Gilroy-SemiBold", sans-serif;
+}
+
+.searchText{
+    color: gray;
+    display: block;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 18em;
+}
+
+.search{
+    border: solid 2px gray;
+    border-radius: 5px;
+    width: 18em;
+    padding: 10px 15px;
+    margin-top: 15px;
+}
+
+.autoComplete{
+    list-style: none;
+    width: 15em;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    overflow: auto;
+}
+.searchItem{
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.favBtn{
+    margin-top: 2em;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: 'Rubik', serif;
+    letter-spacing: 2px;
+    border: 1px solid #F2994A;
+    border-radius: 4px;
+    font-weight: 500;
+    color: #F2994A;
+    padding: 10px 28px;
+    text-transform: uppercase;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.searchSvg{
+    margin-top: 15px;
+    margin-left: 1em;
+}
+
+.inputContainer{
+    margin-left:2.5em;
+    display: flex;
+    align-items: center;
+
+}
+
+.favBtn:hover{
+    color: white;
+    border-color: transparent;
+    background-color: #F2994A;
+}
+
+.searchItem:hover{
+    background-color: gray;
+}
+
+.infoContainer{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.cryptoImg{
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.titleContainer{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.cryptoTitle{
+    font-family: "Franklin Gothic Medium", sans-serif;
+    margin-left: 10px;
+    font-size: 2.5em;
+}
+
+.cryptoTitle2{
+    font-family: "Franklin Gothic Medium", sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-left: 8px;
+}
+
+.starContainer{
+    margin-left: 1em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.starSvg{
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+
+p{
+    font-size: 1.5em;
+}
+
+.priceCrypto,.supplyCrypto{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.supplyCrypto{
+    padding-bottom: 15px;
+}
+
+.infoCard{
+    box-shadow: 2px 5px 20px 3px rgba(99, 49, 164, 0.3);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 32em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cryptoNum{
+    background-color: gray;
+    font-size: 2em;
+}

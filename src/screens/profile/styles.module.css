@@ -1,0 +1,192 @@
+.mainContainer{
+    background: linear-gradient(to left, #3b1d60, #040d3e);
+    min-height: 83.5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ProfileTitle{
+    font-size: 3em;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.avatarBLock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.inputAvatar{
+    display: inline-block;
+    width: 149px;
+    height: 149px;
+    border-radius: 150px;
+    background-color: #e0e0e0;
+    color: #000;
+    cursor: pointer;
+}
+
+.loaderContainer{
+    margin-left: 26px;
+    margin-top: 25px;
+}
+
+.avatar{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    background-color: #e0e0e0;
+    color: #000;
+    cursor: pointer;
+}
+
+.inputAvatar:hover {
+    background-color: #c0c0c0;
+}
+
+.loginContainer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center
+}
+
+.loginText{
+    font-size: 1.5em;
+    color: white;
+}
+
+.profileInfo{
+    min-width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.informContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    align-items: center;
+    margin: 20px 0;
+}
+
+
+.informText{
+
+    font-size: 1.2em;
+    color: white;
+}
+
+.editBtn {
+    font-size: 1em;
+    font-family: 'Rubik';
+    margin-right: 1.5em;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    color: #F2994A;
+    padding: 8px 28px;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.btnContainer{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.changeAccContainer{
+    margin-top: 30px;
+}
+
+.modalTitle{
+    font-size: 1em;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+.modalContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modalInput{
+    color: white;
+    margin: 20px 0;
+    padding: 15px 20px;
+    width: 446px;
+    background: rgba(32, 12, 190, 0.1);
+    border: 1px solid #1F2AD1;
+    border-radius: 8px;
+}
+
+.modalInputErr{
+    color: white;
+    margin: 20px 0;
+    padding: 15px 20px;
+    width: 446px;
+    background: rgba(190, 12, 54, 0.1);
+    border: 1px solid #d11f5d;
+    border-radius: 8px;
+}
+
+.modalInput::placeholder{
+    font-size: 16px;
+    color: #BAB8C3;
+}
+
+.modalBtn{
+    width: 129px;
+    height: 51px;
+    background: linear-gradient(270deg, #1E34E1 0%, #560DAA 100%);
+    border-radius: 9px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.closeBtn{
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.successText{
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.iconContainer{
+    margin-top: 30px;
+}
+
+.btnModalContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    cursor: pointer;
+    position: absolute;
+    right: 120px;
+}
+
+.inputContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
