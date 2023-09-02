@@ -12,8 +12,6 @@ class GetAPI {
   categories = [];
   favorites = [];
   pending = true;
-  pending50 = true;
-  pending100 = true;
   loading = false;
   dataLoaded = false;
 
@@ -23,8 +21,6 @@ class GetAPI {
       topCrypto: observable,
       categories: observable,
       pending: observable,
-      pending50: observable,
-      pending100: observable,
       dataLoaded: observable,
       loading: observable,
       getCategories: action,
@@ -46,14 +42,14 @@ class GetAPI {
   };
 
   getCategories = async (url) => {
-    this.pending100 = true;
+    this.pending = true;
     try {
       const response = await fetch(url);
       this.categories = await response.json();
     } catch (e) {
       console.warn(e);
     }
-    this.pending100 = false;
+    this.pending = false;
   };
 
   setFavorite = async (item) => {

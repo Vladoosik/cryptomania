@@ -1,5 +1,5 @@
 // modules
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { observer } from "mobx-react";
 // store
 import AuthStore from "../../store/auth";
@@ -16,6 +16,20 @@ const SignIn = observer((props) => {
   const handleLogin = () => {
     login(email, password, navigate, setError);
   };
+
+  useEffect(() => {
+    const onKeypress = (e) => {
+      if (e.key === "Enter") {
+        console.log(email, password);
+      }
+    };
+
+    document.addEventListener("keypress", onKeypress);
+
+    return () => {
+      document.removeEventListener("keypress", onKeypress);
+    };
+  }, []);
 
   return (
     <div className={styles.container}>

@@ -21,11 +21,11 @@ const FavoriteScreen = observer(() => {
     setFavorite,
   } = getAPI;
 
-  const { user } = AuthStore;
+  const { sessionUser } = AuthStore;
 
   useEffect(() => {
     getFavoritesFromDatabase().catch((e) => console.warn(e));
-  }, [user]);
+  }, [sessionUser]);
 
   const handleDeleteFavorite = (item) => {
     setFavorite(item);

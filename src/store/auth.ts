@@ -46,6 +46,7 @@ class AuthStore {
       .then((userCredential) => {
         const user = userCredential.user;
         this.setUser(user);
+        this.setSessionUser(user);
         sessionStorage.setItem("user", JSON.stringify(user));
         navigate("/");
       })
